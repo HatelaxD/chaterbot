@@ -6,9 +6,8 @@ class MessageHandler:
     import requests
     import Client, log, _graphql
     import json
-         class ChatBot(Client):
     def __init__(self):
-
+            class ChatBot(Client):
         # TODO put this to database THOMAS
         self.greetings = ["Hello! ", "Hi! ", "Sup bro ", "Hey ", "I'm here to help you :) ", "Good bean! "]
         self.feeling = ["I do not have feelings", "I feel like Pablo"]
